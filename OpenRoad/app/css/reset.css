@@ -1,0 +1,19 @@
+* {
+  font-size: 100%;
+  margin: 0;
+  padding: 0; }
+
+a,
+a:visited,
+a:focus,
+a:hover,
+a:active {
+  text-decoration: none; }
+
+a:focus,
+*:focus {
+  outline: none; }
+
+ul,
+li {
+  list-style: none; }

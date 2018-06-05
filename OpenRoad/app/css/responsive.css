@@ -1,0 +1,132 @@
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .txt_jp,
+  .t1-color {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+/* ----- Header ----- */
+
+@media screen and (max-width: 1024px) {
+  #gnav .nav {
+    padding-right: 0;
+  }
+  #gnav .nav li a {
+    font-size: 1.3rem;
+    padding: 12px 18px 13px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #header {
+    background: #fff;
+    position: initial;
+  }
+  #header .menu-sp {
+    display: flex;
+    justify-content: flex-end;
+    padding: 32px 30px 10px;
+  }
+  #gnav {
+    -webkit-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    display: none;
+  }
+  #gnav .nav {
+    /*display: none;*/
+    flex-flow: row wrap;
+  }
+  #gnav .nav li {
+    flex-basis: 100%;
+  }
+  #gnav .nav li a {
+    font-size: 4.8vw;
+    text-align: center;
+    padding: 17px 18px 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #header .menu-sp {
+    padding: 15px 20px;
+  }
+  #gnav .nav li a {
+    padding: 10px;
+  }
+  #menu_button {
+    width: 30px;
+    height: 22px;
+  }
+  #menu_button span:nth-child(2),
+  #menu_button span:nth-child(3) {
+    top: 10px;
+  }
+  #menu_button span:nth-child(4) {
+    top: 20px;
+  }
+}
+
+@media screen and (max-height: 420px) {
+  #gnav .nav {
+    padding-bottom: 20px;
+  }
+  #gnav .nav li a {
+    font-size: 2rem;
+    padding: 10px;
+    line-height: 1.5;
+  }
+}
+
+/* ----- Content ----- */
+
+@media screen and (max-width: 767px) {
+  .layout01 p {
+    font-size: 2rem;
+  }
+  .layout02 .row-img .txtBox p {
+    font-size: 2.8rem;
+    padding: 8px 50px 8px 20px;
+  }
+  .layout03 .info li {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .layout02 .row-img .txtBox p {
+    font-size: 2.2rem;
+    padding: 6px 30px 6px 15px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .layout02 .row-img .txtBox {
+    bottom: 25px;
+  }
+  .layout02 .row-img .txtBox p {
+    font-size: 2rem;
+    padding: 5px 30px 5px 15px;
+  }
+}
+
+/* ----- Footer ----- */
+
+@media screen and (max-width: 767px) {
+  #footer p {
+    font-size: 1.6rem;
+    padding: 18px 0;
+  }
+}
